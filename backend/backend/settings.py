@@ -27,7 +27,11 @@ SECRET_KEY = 'django-insecure-ccxb%@giwx8ib+=l169hpx%9(9o=!07qo#s5%-#1*adgz%$^(^
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = [
+    "quickbite-order-management.onrender.com",
+    "localhost",
+    "127.0.0.1",
+]
 
 
 # Application definition
